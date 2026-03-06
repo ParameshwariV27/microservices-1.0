@@ -21,7 +21,7 @@ public class CircuitBreakerController {
 	//@Retry(name = "sample-api", fallbackMethod = "hardcodedResponse")
 	//@CircuitBreaker(name = "sample-api", fallbackMethod = "hardcodedResponse")
 	@RateLimiter(name="default")
-	@Bulkhead(name="default")
+	//@Bulkhead(name="default")
 	public String sampleApi()
 	{
 		logger.info("Sample API call received");
