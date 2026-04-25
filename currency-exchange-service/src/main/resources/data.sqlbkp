@@ -1,0 +1,34 @@
+insert into CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment)
+values (10001, 'USD','INR',93.5, '');
+
+insert into CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment)
+values (10002, 'EUR','INR',110, '');
+
+insert into CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment)
+values (10003, 'AUD','INR',62, '');
+
+insert into CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment)
+values (10004, 'GBP','INR',126, '');
+
+insert into CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment)
+values (10005, 'GBP','INR',126, '');
+insert into CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment)
+values (10006, 'JPY','INR',0.65, '');
+
+insert into CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment)
+values (10007, 'AED','INR',26, '');
+
+insert into CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment)
+values (10008, 'SAR','INR',25, '');
+
+insert into CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment)
+values (10009, 'SGD','INR',70, '');
+
+insert into CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment)
+values (10010, 'CAD','INR',69, '');
+
+insert into CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment)
+values (10011, 'CHF','INR',112, '');
+
+insert into CURRENCY_EXCHANGE (id, currency_from, currency_to, conversion_multiple, environment)
+values (10012, 'CNY','INR',13.5, '');

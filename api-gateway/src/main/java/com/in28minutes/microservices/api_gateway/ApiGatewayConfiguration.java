@@ -18,10 +18,8 @@ public class ApiGatewayConfiguration {
 		
 				
 		return builder.routes()
-				.route(p->p.path("/get")
-						  .filters(f->f.addRequestHeader("MyHeader", "MyURI")
-						  .addRequestParameter("Parameter", "MyValue"))
-						  .uri("http://httpbin.org:80"))
+				.route(p->p.path("/get/**")
+						  .uri("https://leetcode.com/problems/"))
 				.route(p->p.path("/currency-exchange/**")
 						.uri("lb://currency-exchange"))
 				.route(p->p.path("/currency-conversion/**")

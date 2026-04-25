@@ -1,0 +1,8 @@
+create table currency_exchange(
+ id integer,
+ currency_from character varying(255),
+ currency_to character varying(255),
+ conversion_multiple numeric(38,2),
+ environment character varying(255)
+
+);

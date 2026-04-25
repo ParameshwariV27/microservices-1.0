@@ -15,6 +15,7 @@ public class CurrencyExchange {
 	private String from;
 	@Column(name="currency_to")
 	private String to;
+	//@Column(name = "")
 	private BigDecimal conversionMultiple;
 	private String environment;
 	public CurrencyExchange()
@@ -58,6 +59,11 @@ public class CurrencyExchange {
 	}
 	public void setEnvironment(String environment) {
 		this.environment = environment;
+	}
+	@Override
+	public String toString() {
+		return "CurrencyExchange [id=" + id + ", from=" + from + ", to=" + to + ", conversionMultiple="
+				+ conversionMultiple + ", environment=" + environment + "]";
 	}
 	
 	
