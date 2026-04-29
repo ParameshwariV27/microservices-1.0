@@ -8,9 +8,9 @@
 		<version>3.4.12</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.in28minutes.microservices</groupId>
+	<groupId>com.pv</groupId>
 	<artifactId>currency-conversion-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.11-SNAPSHOT</version>
 	<name>currency-conversion-service</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
@@ -57,7 +57,18 @@
 <dependency>
     <groupId>io.github.openfeign</groupId>
     <artifactId>feign-micrometer</artifactId>
+    
 </dependency>
+
+<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-aop</artifactId>
+		</dependency>
+		
+	<dependency>
+			<groupId>io.github.resilience4j</groupId>
+			<artifactId>resilience4j-spring-boot2</artifactId>
+		</dependency>
 
 <dependency>
 		<groupId>io.micrometer</groupId>
@@ -106,7 +117,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 				<image>
-				<name>pv/mmv2-${project.artifactId}:${project.version}</name>
+				<name>pbv27/mmv3-${project.artifactId}:${project.version}</name>
 				</image>
 				<pullpolicy>IF_NOT_PRESENT</pullpolicy>
 				</configuration>
